@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-    <head>
+    <head> 
         <title> Festivaluri de muzica din Romania</title>
-
     </head>
+    <main>
     <!--inceput formular-->
     <form>
         <label for="fname">First name:</label><br>
@@ -12,7 +12,7 @@
         <label for="lname">Last name:</label><br>
         <input type="text" id="lname" name="lname">
     </form> 
-    <!--dropdown list -->
+        <!--dropdown list -->
     <p>
     <select id="cars" name="cars" multiple>
         <option value="volvo">Volvo</option>
@@ -21,11 +21,50 @@
         <option value="audi">Audi</option>
     </select>
     </p>
+        <!--button-->
     <p>
     <button type="button" onclick="alert('Hello World!')">Raspunsuri trimise</button> 
     </p>
+    <p>
     <label for="w3mission">W3Schools mission:</label>
-    <textarea name="message" rows="10" cols="30" required="required">
-    </textarea> 
+    <textarea name="message" rows="10" cols="30" required="required"></textarea>
+    </p>
+        <!-- radio button-->
+    <p>
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </p>
+    <!-- submit button-->
+    <p>
+    <form href="medium.com/stefanlobont" method="post" target="_blank">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="reset">
+    </form> 
+    </p>
+    <!--text box-->
+    <p>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label><br> 
+    </form>
+    </p>
+    <img src="https://images.pexels.com/photos/3222386/pexels-photo-3222386.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"> 
+    <footer>
+    <div class="link">
+        <h2 class="link"><a href="fisier.xml" target="_blank">XML</a></h2>
+    </div>
+    </footer>
+    </main>
 </body>
 </html>
